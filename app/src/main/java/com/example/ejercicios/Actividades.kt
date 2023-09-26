@@ -31,4 +31,16 @@ fun main(){
     println(informacionPersonal(nombre, edad, "Granada"))
 
 
+    //act 5
+    fun grados_f(temp:Double):Double{
+        return (temp * 5/9 ) + 32 ;
+
+    }
+    println(grados_f(0.0))
+
+    fun farent_g(temp:Double):Double{
+        return (temp - 32) * 5/9;
+
+    }
+    println(farent_g(50.0))
 }
